@@ -61,7 +61,7 @@ public class CalculatriceJenkinsIT {
         int result = CalculatriceJenkins.sum(num1, num2);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The failed test case is a prototype.");
+        fail("The failed test case is a prototype.");
     }
     
 }
