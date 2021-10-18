@@ -46,22 +46,7 @@ public class CalculatriceJenkinsIT {
         String[] args = null;
         CalculatriceJenkins.main(args);
         // TODO review the generated test code and remove the default call to fail.
-     //fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of sum method, of class CalculatriceJenkins.
-     */
-    @Test
-    public void testSum() {
-        System.out.println("sum");
-        int num1 = 0;
-        int num2 = 0;
-        int expResult = 0;
-        int result = CalculatriceJenkins.sum(num1, num2);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The failed test case is a prototype.");
+        fail("The test case is a prototype.");
     }
     
 }
